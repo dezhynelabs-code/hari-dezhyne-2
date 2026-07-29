@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Velvet Fork – A premium fine-dining restaurant in New York offering carefully crafted dishes, elegant flavours, and warm hospitality in a luxurious atmosphere." />
+  <meta name="keywords" content="fine dining, luxury restaurant, New York restaurant, The Velvet Fork, gourmet food, chef Adrian Laurent" />
+  <meta name="author" content="The Velvet Fork" />
+  <meta property="og:title" content="The Velvet Fork | Fine Dining Experience" />
+  <meta property="og:description" content="Discover carefully crafted dishes, elegant flavours, and warm hospitality in a luxurious dining atmosphere." />
+  <meta property="og:type" content="website" />
+  <title>The Velvet Fork | Premium Fine Dining</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+  ============================================================ -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+
+      <!-- Logo -->
+      <a href="#home" class="logo" id="logo-link">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">The Velvet Fork</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home"         class="nav-link" id="nav-home">Home</a></li>
+          <li><a href="#about"        class="nav-link" id="nav-about">About</a></li>
+          <li><a href="#menu"         class="nav-link" id="nav-menu">Menu</a></li>
+          <li><a href="#chef"         class="nav-link" id="nav-chef">Chef</a></li>
+          <li><a href="#gallery"      class="nav-link" id="nav-gallery">Gallery</a></li>
+          <li><a href="#testimonials" class="nav-link" id="nav-testimonials">Testimonials</a></li>
+          <li><a href="#reservation"  class="nav-link" id="nav-reservation">Reservation</a></li>
+          <li><a href="#contact"      class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Book a Table CTA -->
+      <a href="#reservation" class="btn btn-gold header-cta" id="header-cta">Book a Table</a>
+
+      <!-- Hamburger (Mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#home"         class="mobile-nav-link" id="mnav-home">Home</a></li>
+        <li><a href="#about"        class="mobile-nav-link" id="mnav-about">About</a></li>
+        <li><a href="#menu"         class="mobile-nav-link" id="mnav-menu">Menu</a></li>
+        <li><a href="#chef"         class="mobile-nav-link" id="mnav-chef">Chef</a></li>
+        <li><a href="#gallery"      class="mobile-nav-link" id="mnav-gallery">Gallery</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link" id="mnav-testimonials">Testimonials</a></li>
+        <li><a href="#reservation"  class="mobile-nav-link" id="mnav-reservation">Reservation</a></li>
+        <li><a href="#contact"      class="mobile-nav-link" id="mnav-contact">Contact</a></li>
+        <li><a href="#reservation"  class="btn btn-gold mobile-nav-cta" id="mnav-cta">Book a Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- Background image handled in CSS / inline style -->
+    <div class="hero-bg-overlay"></div>
+
+    <!-- Floating decorative orbs -->
+    <div class="hero-orb hero-orb--1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb--2" aria-hidden="true"></div>
+
+    <div class="hero-content container">
+      <p class="hero-eyebrow animate-fade-in">✦ WELCOME TO THE VELVET FORK ✦</p>
+      <h1 class="hero-heading animate-slide-up">An Unforgettable<br /><em>Fine Dining</em> Experience</h1>
+      <p class="hero-description animate-slide-up animate-delay-1">
+        Discover carefully crafted dishes, elegant flavours, and warm hospitality<br class="desktop-br" /> in a luxurious dining atmosphere.
+      </p>
+      <div class="hero-actions animate-slide-up animate-delay-2">
+        <a href="#menu"        class="btn btn-gold btn-shine"    id="hero-menu-btn">Explore Our Menu</a>
+        <a href="#reservation" class="btn btn-outline-gold"      id="hero-book-btn">Book a Table</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" id="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-indicator-text">Scroll</span>
+      <div class="scroll-indicator-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+
+      <!-- Left: Image -->
+      <div class="about-image-wrap reveal-left">
+        <img
+          src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\about_interior_1785305675884.png"
+          alt="Elegant interior of The Velvet Fork restaurant"
+          class="about-image"
+          id="about-img"
+          loading="lazy"
+        />
+        <div class="about-image-badge">
+          <span class="badge-number">15+</span>
+          <span class="badge-label">Years of Excellence</span>
+        </div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="about-content reveal-right">
+        <p class="section-eyebrow">✦ OUR STORY ✦</p>
+        <h2 class="section-heading">Where Passion Meets<br /><em>Fine Dining</em></h2>
+        <p class="about-desc">
+          The Velvet Fork brings together exceptional ingredients, artistic presentation, and unforgettable flavours. Every dish is prepared with care to give our guests a truly memorable dining experience.
+        </p>
+
+        <!-- Highlights -->
+        <ul class="about-highlights" id="about-highlights">
+          <li class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Fresh Premium Ingredients</span>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Award-Winning Chefs</span>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Elegant Dining Atmosphere</span>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Exceptional Hospitality</span>
+          </li>
+        </ul>
+
+        <a href="#menu" class="btn btn-gold btn-shine" id="about-cta">Discover Our Story</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       MENU SECTION
+  ============================================================ -->
+  <section class="menu section" id="menu">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">✦ OUR SIGNATURE DISHES ✦</p>
+        <h2 class="section-heading">Crafted with Passion,<br /><em>Served with Love</em></h2>
+      </div>
+
+      <!-- Menu Cards Grid -->
+      <div class="menu-grid" id="menu-grid">
+
+        <!-- Card 1 -->
+        <article class="menu-card reveal-up" id="card-risotto">
+          <div class="menu-card-image-wrap">
+            <img
+              src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_truffle_risotto_1785305702088.png"
+              alt="Truffle Mushroom Risotto"
+              class="menu-card-image"
+              loading="lazy"
+            />
+            <div class="menu-card-overlay"></div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">Truffle Mushroom Risotto</h3>
+            <p class="menu-card-desc">Creamy Arborio rice with black truffle, wild mushrooms & Parmesan.</p>
+            <span class="menu-card-price">$28</span>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="menu-card reveal-up" id="card-salmon">
+          <div class="menu-card-image-wrap">
+            <img
+              src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_salmon_1785305723707.png"
+              alt="Grilled Atlantic Salmon"
+              class="menu-card-image"
+              loading="lazy"
+            />
+            <div class="menu-card-overlay"></div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">Grilled Atlantic Salmon</h3>
+            <p class="menu-card-desc">Pan-seared salmon with lemon beurre blanc, asparagus & dill oil.</p>
+            <span class="menu-card-price">$34</span>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="menu-card reveal-up" id="card-lamb">
+          <div class="menu-card-image-wrap">
+            <img
+              src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_lamb_1785305742830.png"
+              alt="Herb-Crusted Lamb"
+              class="menu-card-image"
+              loading="lazy"
+            />
+            <div class="menu-card-overlay"></div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">Herb-Crusted Lamb</h3>
+            <p class="menu-card-desc">Rack of lamb with rosemary crust, root vegetables & red wine jus.</p>
+            <span class="menu-card-price">$42</span>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="menu-card reveal-up" id="card-lobster">
+          <div class="menu-card-image-wrap">
+            <img
+              src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_lobster_pasta_1785305765312.png"
+              alt="Creamy Lobster Pasta"
+              class="menu-card-image"
+              loading="lazy"
+            />
+            <div class="menu-card-overlay"></div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">Creamy Lobster Pasta</h3>
+            <p class="menu-card-desc">Fresh linguine with Maine lobster in a rich bisque cream sauce.</p>
+            <span class="menu-card-price">$38</span>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="menu-card reveal-up" id="card-steak">
+          <div class="menu-card-image-wrap">
+            <img
+              src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_beef_steak_1785305778460.png"
+              alt="Signature Beef Steak"
+              class="menu-card-image"
+              loading="lazy"
+            />
+            <div class="menu-card-overlay"></div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">Signature Beef Steak</h3>
+            <p class="menu-card-desc">Wagyu ribeye with truffle butter, gratin potato & asparagus.</p>
+            <span class="menu-card-price">$45</span>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="menu-card reveal-up" id="card-dessert">
+          <div class="menu-card-image-wrap">
+            <img
+              src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_chocolate_dessert_1785305791164.png"
+              alt="Chocolate Hazelnut Delight"
+              class="menu-card-image"
+              loading="lazy"
+            />
+            <div class="menu-card-overlay"></div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">Chocolate Hazelnut Delight</h3>
+            <p class="menu-card-desc">Dark chocolate dome with gold leaf, hazelnut praline & raspberry.</p>
+            <span class="menu-card-price">$16</span>
+          </div>
+        </article>
+
+      </div><!-- /.menu-grid -->
+
+      <div class="section-action reveal-up">
+        <a href="#reservation" class="btn btn-gold btn-shine" id="menu-full-btn">View Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       EXPERIENCE / PARALLAX SECTION
+  ============================================================ -->
+  <section class="experience parallax-section" id="experience">
+    <div class="experience-overlay"></div>
+    <div class="container experience-content reveal-up">
+      <p class="section-eyebrow light">✦ MORE THAN A MEAL ✦</p>
+      <h2 class="section-heading light">Experience Luxury<br /><em>in Every Detail</em></h2>
+      <p class="experience-desc">
+        From the first welcome to the final dessert, every moment is<br class="desktop-br" /> designed to make your visit special.
+      </p>
+      <a href="#reservation" class="btn btn-gold btn-shine" id="experience-cta">Reserve Your Experience</a>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CHEF SECTION
+  ============================================================ -->
+  <section class="chef section" id="chef">
+    <div class="container chef-grid">
+
+      <!-- Left: Chef Image -->
+      <div class="chef-image-wrap reveal-left">
+        <img
+          src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\chef_portrait_1785305845305.png"
+          alt="Chef Adrian Laurent – Head Chef at The Velvet Fork"
+          class="chef-image"
+          id="chef-img"
+          loading="lazy"
+        />
+        <div class="chef-image-frame" aria-hidden="true"></div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="chef-content reveal-right">
+        <p class="section-eyebrow">✦ MEET OUR CHEF ✦</p>
+        <h2 class="section-heading">Chef<br /><em>Adrian Laurent</em></h2>
+        <p class="chef-desc">
+          With over 15 years of culinary experience, Chef Adrian combines traditional techniques with modern creativity to create dishes that are elegant, flavourful, and unforgettable. Trained in Paris and refined across Michelin-starred kitchens in New York, London, and Tokyo, his philosophy is simple: every plate tells a story.
+        </p>
+
+        <!-- Signature Text -->
+        <p class="chef-signature" aria-label="Chef Adrian Laurent signature">Adrian Laurent</p>
+
+        <!-- Social Icons -->
+        <div class="chef-social" id="chef-social">
+          <a href="#" class="social-icon" id="chef-instagram" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social-icon" id="chef-facebook" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-icon" id="chef-linkedin" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       GALLERY SECTION
+  ============================================================ -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">✦ OUR GALLERY ✦</p>
+        <h2 class="section-heading">A Visual<br /><em>Culinary Journey</em></h2>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid">
+
+        <div class="gallery-item reveal-up" id="gitem-1" data-index="0">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_truffle_risotto_1785305702088.png"
+            alt="Fine dining dish – Truffle Risotto"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-2" data-index="1">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\about_interior_1785305675884.png"
+            alt="Restaurant interior"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-3" data-index="2">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\gallery_plating_1785305891406.png"
+            alt="Chef plating a dish"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-4" data-index="3">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_chocolate_dessert_1785305791164.png"
+            alt="Elegant chocolate dessert"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-5" data-index="4">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\parallax_interior_1785305825280.png"
+            alt="Elegant dining table setting"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-6" data-index="5">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\gallery_drinks_1785305874521.png"
+            alt="Luxury cocktails and drinks"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-7" data-index="6">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\dish_beef_steak_1785305778460.png"
+            alt="Signature Wagyu beef steak"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-up" id="gitem-8" data-index="7">
+          <img
+            src="C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\chef_portrait_1785305845305.png"
+            alt="Chef Adrian Laurent at work"
+            class="gallery-img"
+            loading="lazy"
+          />
+          <div class="gallery-item-overlay">
+            <span class="gallery-zoom-icon">✦</span>
+          </div>
+        </div>
+
+      </div><!-- /.gallery-grid -->
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Image lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+      <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image">&#8249;</button>
+      <button class="lightbox-next" id="lightbox-next" aria-label="Next image">&#8250;</button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" class="lightbox-img" id="lightbox-img" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">✦ WHAT GUESTS SAY ✦</p>
+        <h2 class="section-heading">Voices of<br /><em>Satisfaction</em></h2>
+      </div>
+
+      <!-- Slider -->
+      <div class="testimonials-slider-wrap reveal-up">
+        <div class="testimonials-slider" id="testimonials-slider" role="region" aria-label="Testimonials slider">
+
+          <!-- Slide 1 -->
+          <div class="testimonial-slide" id="tslide-1" role="group" aria-label="Testimonial 1 of 3">
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <blockquote class="testimonial-text">
+                "An absolutely magical evening. The Herb-Crusted Lamb was the finest dish I have ever tasted in New York. The atmosphere, service, and attention to detail were simply extraordinary."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=100&h=100&fit=crop&crop=face" alt="Sophia Bennett" loading="lazy" />
+                </div>
+                <div class="testimonial-info">
+                  <strong class="testimonial-name">Sophia Bennett</strong>
+                  <span class="testimonial-role">Food Critic, Gourmet Weekly</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide" id="tslide-2" role="group" aria-label="Testimonial 2 of 3">
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <blockquote class="testimonial-text">
+                "We celebrated our anniversary here and it was truly unforgettable. Chef Adrian's Wagyu steak is a masterpiece. The velvet ambience, the impeccable service — pure luxury from start to finish."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face" alt="James & Claire Moreau" loading="lazy" />
+                </div>
+                <div class="testimonial-info">
+                  <strong class="testimonial-name">James & Claire Moreau</strong>
+                  <span class="testimonial-role">Loyal Guests Since 2019</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide" id="tslide-3" role="group" aria-label="Testimonial 3 of 3">
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <blockquote class="testimonial-text">
+                "The Velvet Fork redefined fine dining for me. The Truffle Risotto was heavenly and the Chocolate Hazelnut Delight was a work of edible art. Every visit feels like the first — that is how special this place is."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Marcus Holloway" loading="lazy" />
+                </div>
+                <div class="testimonial-info">
+                  <strong class="testimonial-name">Marcus Holloway</strong>
+                  <span class="testimonial-role">Executive Chef & Restaurateur</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.testimonials-slider -->
+
+        <!-- Navigation Arrows -->
+        <button class="testimonial-btn testimonial-prev" id="testimonial-prev" aria-label="Previous testimonial">&#8249;</button>
+        <button class="testimonial-btn testimonial-next" id="testimonial-next" aria-label="Next testimonial">&#8250;</button>
+
+        <!-- Dots -->
+        <div class="testimonial-dots" id="testimonial-dots" role="tablist" aria-label="Testimonial navigation">
+          <button class="tdot active" id="tdot-0" role="tab" aria-selected="true"  aria-label="Go to testimonial 1"></button>
+          <button class="tdot"        id="tdot-1" role="tab" aria-selected="false" aria-label="Go to testimonial 2"></button>
+          <button class="tdot"        id="tdot-2" role="tab" aria-selected="false" aria-label="Go to testimonial 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       RESERVATION SECTION
+  ============================================================ -->
+  <section class="reservation section" id="reservation">
+    <div class="reservation-bg-pattern" aria-hidden="true"></div>
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">✦ RESERVE YOUR TABLE ✦</p>
+        <h2 class="section-heading">Make a<br /><em>Reservation</em></h2>
+      </div>
+
+      <div class="reservation-form-wrap glass-card reveal-up" id="reservation-wrap">
+
+        <!-- Success Message -->
+        <div class="reservation-success" id="reservation-success" aria-live="polite" hidden>
+          <div class="success-icon">✦</div>
+          <h3 class="success-heading">Table Reserved!</h3>
+          <p class="success-message">Thank you! Your table reservation request has been received. Our team will contact you to confirm within 24 hours.</p>
+          <a href="#home" class="btn btn-gold btn-shine" id="success-back-btn">Back to Home</a>
+        </div>
+
+        <form class="reservation-form" id="reservation-form" novalidate>
+          <div class="form-grid">
+
+            <div class="form-group">
+              <label for="res-name">Full Name</label>
+              <input type="text" id="res-name" name="fullName" placeholder="Your full name" autocomplete="name" />
+              <span class="form-error" id="err-name" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="res-email">Email Address</label>
+              <input type="email" id="res-email" name="email" placeholder="your@email.com" autocomplete="email" />
+              <span class="form-error" id="err-email" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="res-phone">Phone Number</label>
+              <input type="tel" id="res-phone" name="phone" placeholder="+1 555 000 0000" autocomplete="tel" />
+              <span class="form-error" id="err-phone" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="res-guests">Number of Guests</label>
+              <select id="res-guests" name="guests">
+                <option value="">Select guests</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7+">7+ Guests</option>
+              </select>
+              <span class="form-error" id="err-guests" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="res-date">Reservation Date</label>
+              <input type="date" id="res-date" name="date" />
+              <span class="form-error" id="err-date" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="res-time">Reservation Time</label>
+              <select id="res-time" name="time">
+                <option value="">Select time</option>
+                <option value="17:00">5:00 PM</option>
+                <option value="17:30">5:30 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="18:30">6:30 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="19:30">7:30 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="20:30">8:30 PM</option>
+                <option value="21:00">9:00 PM</option>
+                <option value="21:30">9:30 PM</option>
+                <option value="22:00">10:00 PM</option>
+              </select>
+              <span class="form-error" id="err-time" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group form-group--full">
+              <label for="res-special">Special Request <span class="optional">(Optional)</span></label>
+              <textarea id="res-special" name="specialRequest" rows="3" placeholder="Dietary requirements, celebrations, seating preferences…"></textarea>
+            </div>
+
+          </div><!-- /.form-grid -->
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-gold btn-shine btn-lg" id="res-submit">Confirm Reservation</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+
+      <!-- Left: Info -->
+      <div class="contact-info reveal-left">
+        <p class="section-eyebrow">✦ FIND US ✦</p>
+        <h2 class="section-heading">Get in<br /><em>Touch</em></h2>
+
+        <ul class="contact-details" id="contact-details">
+          <li class="contact-item">
+            <span class="contact-item-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <strong>Address</strong>
+              <span>24 Grand Avenue, New York, NY 10001</span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-item-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.64 3.35 2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.63a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <strong>Phone</strong>
+              <span><a href="tel:+15552347890">+1 555 234 7890</a></span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-item-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div>
+              <strong>Email</strong>
+              <span><a href="mailto:reservations@thevelvetfork.com">reservations@thevelvetfork.com</a></span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-item-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </span>
+            <div>
+              <strong>Opening Hours</strong>
+              <span>Mon–Fri: 5:00 PM – 11:00 PM</span>
+              <span>Sat–Sun: 12:00 PM – 11:30 PM</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Map Placeholder -->
+      <div class="contact-map reveal-right">
+        <div class="map-placeholder" id="map-placeholder">
+          <iframe
+            title="The Velvet Fork Location Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.168!2d-73.9857!3d40.7484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjIiTiA3M8KwNTknMDguNSJX!5e0!3m2!1sen!2sus!4v1000000000000"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+
+        <!-- Col 1: Brand -->
+        <div class="footer-col footer-brand">
+          <a href="#home" class="logo footer-logo" id="footer-logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">The Velvet Fork</span>
+          </a>
+          <p class="footer-desc">
+            A celebrated fine-dining destination in New York, where culinary artistry meets warm hospitality. Every visit is an unforgettable experience.
+          </p>
+          <div class="footer-social" id="footer-social">
+            <a href="#" class="social-icon" id="footer-ig"  aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" class="social-icon" id="footer-fb"  aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon" id="footer-tw"  aria-label="Twitter / X">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.743l7.733-8.835L2.25 2.25h6.961l4.265 5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-icon" id="footer-li"  aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home"         id="flink-home">Home</a></li>
+            <li><a href="#about"        id="flink-about">About Us</a></li>
+            <li><a href="#menu"         id="flink-menu">Our Menu</a></li>
+            <li><a href="#chef"         id="flink-chef">Our Chef</a></li>
+            <li><a href="#gallery"      id="flink-gallery">Gallery</a></li>
+            <li><a href="#testimonials" id="flink-testimonials">Testimonials</a></li>
+            <li><a href="#reservation"  id="flink-reservation">Reservation</a></li>
+            <li><a href="#contact"      id="flink-contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Hours -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Opening Hours</h4>
+          <ul class="footer-hours">
+            <li><span>Monday</span><span>5:00 PM – 11:00 PM</span></li>
+            <li><span>Tuesday</span><span>5:00 PM – 11:00 PM</span></li>
+            <li><span>Wednesday</span><span>5:00 PM – 11:00 PM</span></li>
+            <li><span>Thursday</span><span>5:00 PM – 11:00 PM</span></li>
+            <li><span>Friday</span><span>5:00 PM – 11:00 PM</span></li>
+            <li><span>Saturday</span><span>12:00 PM – 11:30 PM</span></li>
+            <li><span>Sunday</span><span>12:00 PM – 11:30 PM</span></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Newsletter & Contact -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Stay Connected</h4>
+          <p class="footer-newsletter-desc">Subscribe to our newsletter for exclusive offers and events.</p>
+          <form class="newsletter-form" id="newsletter-form" novalidate>
+            <input
+              type="email"
+              id="newsletter-email"
+              name="newsletterEmail"
+              placeholder="Your email address"
+              class="newsletter-input"
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn-gold newsletter-btn" id="newsletter-btn">Subscribe</button>
+          </form>
+          <div class="footer-contact-mini">
+            <p><strong>📍</strong> 24 Grand Avenue, New York</p>
+            <p><strong>📞</strong> <a href="tel:+15552347890">+1 555 234 7890</a></p>
+            <p><strong>✉</strong> <a href="mailto:reservations@thevelvetfork.com">reservations@thevelvetfork.com</a></p>
+          </div>
+        </div>
+
+      </div><!-- /.footer-grid -->
+    </div><!-- /.footer-top -->
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="footer-copy">© 2026 The Velvet Fork. All Rights Reserved.</p>
+        <p class="footer-tagline">Crafted with ♥ and gold</p>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
