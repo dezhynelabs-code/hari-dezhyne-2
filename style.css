@@ -1,6 +1,6 @@
-/* ============================================================
-   THE VELVET FORK — Premium Fine Dining Restaurant
-   style.css — Complete Stylesheet
+﻿/* ============================================================
+   THE VELVET FORK â€” Premium Fine Dining Restaurant
+   style.css â€” Complete Stylesheet
    ============================================================ */
 
 /* --------------------------------------------------
@@ -491,7 +491,7 @@ textarea {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url('C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\hero_bg_1785305661349.png');
+  background-image: url('images/hero_bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -843,7 +843,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('C:\Users\maris\.gemini\antigravity-ide\brain\dbc23db4-b35c-478d-9a52-789a18409d2e\parallax_interior_1785305825280.png');
+  background-image: url('images/parallax_interior.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1593,7 +1593,7 @@ textarea {
 }
 
 .footer-links a::before {
-  content: '›';
+  content: 'â€º';
   color: var(--clr-gold);
   font-size: 1rem;
   line-height: 1;
@@ -1773,7 +1773,7 @@ textarea {
 }
 
 /* --------------------------------------------------
-   20. RESPONSIVE — TABLET (≤1024px)
+   20. RESPONSIVE â€” TABLET (â‰¤1024px)
 -------------------------------------------------- */
 @media (max-width: 1024px) {
   /* Hide desktop nav & CTA; show hamburger */
@@ -1813,7 +1813,7 @@ textarea {
 }
 
 /* --------------------------------------------------
-   21. RESPONSIVE — MOBILE (≤640px)
+   21. RESPONSIVE â€” MOBILE (â‰¤640px)
 -------------------------------------------------- */
 @media (max-width: 640px) {
   :root { --header-h: 68px; }
@@ -1890,3 +1890,4 @@ textarea {
     transform: none;
   }
 }
+
